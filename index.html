@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>new猜數字遊戲</title>
+</head>
+<body>
+    <section class="title">
+        <h1>猜數字遊戲</h1>
+    </section>
+
+    <section class="content">
+        <div class="explain">
+            <h2>遊戲規則說明</h2>
+            <p>
+                1.請於右側輸入任一指定範圍內的數字<br>
+                2.每次猜測後，將會給出相應提示<br>
+                3.若猜中數字則遊戲結束
+            </p>
+        </div>
+        <div class="container">
+            <h2>猜一個1到10之間的數字</h2>
+            <input type="number" id="guess" placeholder="請輸入數字">
+            <button id="submit">提交</button>
+            <button id="re">遊戲重置</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <section class="record">
+        <h2>猜測紀錄</h2>
+        <p id="numberRecord"></p>
+        <p id="timeRecord"></p>
+    </section>
+
+    <script src="newscript.js"></script>
+</body>
+</html>
