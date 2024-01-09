@@ -5,6 +5,7 @@ const userGuessInput = document.getElementById("guess");
 const message = document.getElementById("result");
 const numberRecord = document.getElementById("numberRecord");
 const timeRecord = document.getElementById("timeRecord");
+const backgroundMusic = document.getElementById("backgroundMusic");
 let time = 0;
 const guessRecord=[];
 
