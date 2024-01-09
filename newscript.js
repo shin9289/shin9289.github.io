@@ -35,7 +35,6 @@ reloadButton.addEventListener("click", function () {
 });
 
 window.onload = function() {
-    const backgroundMusic = document.getElementById("backgroundMusic");
     backgroundMusic.play();
 };
 
